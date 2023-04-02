@@ -1,0 +1,1 @@
+Am descarcat fisierul leak.py si am copiat flagul din program, fiind scris in plain text.

@@ -1,0 +1,854 @@
+0
+if(((tmp1 >> 7) & 50) == 0) {
+    continue;
+}
+else if (((tmp1 >> 3) & 219) == 9){
+		continue;
+}
+1--------------------
+if ((tmp1 & 18) == 16){
+		continue;
+}
+else if (((tmp1 >> 6) & 107) == 1){
+		continue;
+}
+else if (((tmp1 >> 4) & 128) == 0){
+		continue;
+}
+else if (((tmp1 >> 6) & 244) == 0){
+		continue;
+}
+else if (((tmp1 >> 4) & 27) == 1){
+		continue;
+}
+2--------------------
+if (((tmp1 >> 6) & 102) == 0){
+		continue;
+}
+else if (((tmp1 >> 2) & 43) == 1){
+		continue;
+}
+else if (((tmp1 >> 4) & 76) == 4){
+		continue;
+}
+else if (((tmp1 >> 6) & 163) == 1){
+		continue;
+}
+else if (((tmp1 >> 6) & 4) == 0){
+		continue;
+}
+else if (((tmp1 >> 5) & 222) == 2){
+		continue;
+}
+3--------------------
+if (((tmp1 >> 6) & 134) == 0){
+		continue;
+}
+else if (((tmp1 >> 3) & 199) == 0){
+		continue;
+}
+else if (((tmp1 >> 5) & 86) == 2){
+		continue;
+}
+else if (((tmp1 >> 4) & 205) == 4){
+		continue;
+}
+else if (((tmp1 >> 4) & 210) == 0){
+		continue;
+}
+else if (((tmp1 >> 1) & 103) == 33){
+		continue;
+}
+else if (((tmp1 >> 1) & 159) == 1){
+		continue;
+}
+5--------------------
+if (((tmp1 >> 7) & 82) == 0){
+		continue;
+}
+else if (((tmp1 >> 2) & 155) == 25){
+		continue;
+}
+else if (((tmp1 >> 3) & 65) == 0){
+		continue;
+}
+else if (((tmp1 >> 6) & 245) == 1){
+		continue;
+}
+else if (((tmp1 >> 2) & 158) == 28){
+		continue;
+}
+6--------------------
+if (((tmp1 >> 3) & 127) == 14){
+		continue;
+}
+else if (((tmp1 >> 7) & 175) == 0){
+		continue;
+}
+else if (((tmp1 >> 4) & 89) == 1){
+		continue;
+}
+else if (((tmp1 >> 6) & 80) == 0){
+		continue;
+}
+else if (((tmp1 >> 4) & 56) == 0){
+		continue;
+}
+else if (((tmp1 >> 4) & 110) == 6){
+		continue;
+}
+else if (((tmp1 >> 6) & 186) == 0){
+		continue;
+}
+else if (((tmp1 >> 2) & 213) == 20){
+		continue;
+}
+7--------------------
+if ((tmp1 & 32) == 32){
+		continue;
+}
+else if (((tmp1 >> 2) & 227) == 1){
+		continue;
+}
+else if (((tmp1 >> 5) & 245) == 1){
+		continue;
+}
+else if (((tmp1 >> 5) & 223) == 1){
+		continue;
+}
+else if (((tmp1 >> 1) & 177) == 16){
+		continue;
+}
+else if (((tmp1 >> 1) & 235) == 10){
+		continue;
+}
+else if (((tmp1 >> 4) & 97) == 1){
+		continue;
+}
+8--------------------
+if (((tmp1 >> 5) & 123) == 1){
+		continue;
+}
+else if (((tmp1 >> 6) & 56) == 0){
+		continue;
+}
+else if (((tmp1 >> 5) & 31) == 1){
+		continue;
+}
+else if (((tmp1 >> 4) & 98) == 2){
+		continue;
+}
+else if (((tmp1 >> 2) & 104) == 8){
+		continue;
+}
+9--------------------
+if (((tmp1 >> 3) & 197) == 5){
+		continue;
+}
+else if (((tmp1 >> 7) & 142) == 0){
+		continue;
+}
+else if (((tmp1 >> 5) & 87) == 3){
+		continue;
+}
+else if (((tmp1 >> 3) & 106) == 8){
+		continue;
+}
+10--------------------
+if (((tmp1 >> 4) & 112) == 0){
+		continue;
+}
+else if (((tmp1 >> 7) & 31) == 0){
+		continue;
+}
+else if (((tmp1 >> 3) & 239) == 11){
+		continue;
+}
+else if (((tmp1 >> 6) & 206) == 0){
+		continue;
+}
+else if (((tmp1 >> 7) & 97) == 0){
+		continue;
+}
+else if (((tmp1 >> 5) & 77) == 0){
+		continue;
+}
+11--------------------
+if (((tmp1 >> 3) & 140) == 4){
+		continue;
+}
+else if (((tmp1 >> 4) & 171) == 3){
+		continue;
+}
+else if (((tmp1 >> 3) & 135) == 6){
+		continue;
+}
+else if (((tmp1 >> 3) & 173) == 4){
+		continue;
+}
+else if (((tmp1 >> 3) & 247) == 6){
+		continue;
+}
+else if (((tmp1 >> 5) & 72) == 0){
+		continue;
+}
+else if (((tmp1 >> 7) & 172) == 0){
+		continue;
+}
+else if (((tmp1 >> 3) & 136) == 0){
+		continue;
+}
+12--------------------
+if (((tmp1 >> 6) & 179) == 1){
+		continue;
+}
+else if (((tmp1 >> 6) & 36) == 0){
+		continue;
+}
+else if (((tmp1 >> 7) & 156) == 0){
+		continue;
+}
+else if (((tmp1 >> 7) & 208) == 0){
+		continue;
+}
+else if (((tmp1 >> 1) & 141) == 4){
+		continue;
+}
+else if (((tmp1 >> 1) & 195) == 2){
+		continue;
+}
+else if (((tmp1 >> 3) & 188) == 12){
+		continue;
+}
+else if (((tmp1 >> 7) & 230) == 0){
+		continue;
+}
+else if (((tmp1 >> 5) & 124) == 0){
+		continue;
+}
+13--------------------
+if ((tmp1 & 21) == 20){
+		continue;
+}
+else if (((tmp1 >> 2) & 158) == 12){
+		continue;
+}
+else if (((tmp1 >> 2) & 172) == 12){
+		continue;
+}
+else if (((tmp1 >> 1) & 142) == 10){
+		continue;
+}
+14--------------------
+if ((tmp1 & 125) == 116){
+		continue;
+}
+else if (((tmp1 >> 4) & 140) == 4){
+		continue;
+}
+else if (((tmp1 >> 2) & 95) == 29){
+		continue;
+}
+15--------------------
+if (((tmp1 >> 5) & 66) == 2){
+		continue;
+}
+else if (((tmp1 >> 7) & 37) == 0){
+		continue;
+}
+else if (((tmp1 >> 2) & 46) == 12){
+		continue;
+}
+else if (((tmp1 >> 7) & 127) == 0){
+		continue;
+}
+else if (((tmp1 >> 5) & 56) == 0){
+		continue;
+}
+else if (((tmp1 >> 2) & 16) == 16){
+		continue;
+}
+else if (((tmp1 >> 7) & 23) == 0){
+		continue;
+}
+else if (((tmp1 >> 3) & 180) == 4){
+		continue;
+}
+16--------------------
+if (((tmp1 >> 1) & 70) == 0){
+		continue;
+}
+17--------------------
+if (((tmp1 >> 4) & 249) == 1){
+		continue;
+}
+else if (((tmp1 >> 2) & 93) == 12){
+		continue;
+}
+else if (((tmp1 >> 6) & 105) == 0){
+		continue;
+}
+else if (((tmp1 >> 3) & 154) == 2){
+		continue;
+}
+else if (((tmp1 >> 3) & 86) == 6){
+		continue;
+}
+else if (((tmp1 >> 1) & 163) == 0){
+		continue;
+}
+18--------------------
+if ((tmp1 & 241) == 81){
+		continue;
+}
+else if (((tmp1 >> 2) & 10) == 2){
+		continue;
+}
+else if (((tmp1 >> 1) & 185) == 41){
+		continue;
+}
+else if (((tmp1 >> 5) & 206) == 2){
+		continue;
+}
+else if (((tmp1 >> 7) & 34) == 0){
+		continue;
+}
+19--------------------
+if (((tmp1 >> 4) & 228) == 4){
+		continue;
+}
+else if (((tmp1 >> 2) & 135) == 1){
+		continue;
+}
+else if (((tmp1 >> 3) & 82) == 0){
+		continue;
+}
+else if (((tmp1 >> 2) & 237) == 9){
+		continue;
+}
+else if (((tmp1 >> 5) & 198) == 2){
+		continue;
+}
+else if (((tmp1 >> 4) & 163) == 2){
+		continue;
+}
+else if (((tmp1 >> 2) & 31) == 25){
+		continue;
+}
+else if (((tmp1 >> 4) & 209) == 0){
+		continue;
+}
+else if (((tmp1 >> 4) & 44) == 4){
+		continue;
+}
+20--------------------
+if (((tmp1 >> 5) & 19) == 1){
+		continue;
+}
+else if (((tmp1 >> 4) & 107) == 3){
+		continue;
+}
+else if (((tmp1 >> 7) & 44) == 0){
+		continue;
+}
+else if (((tmp1 >> 3) & 17) == 0){
+		continue;
+}
+else if (((tmp1 >> 5) & 37) == 1){
+		continue;
+}
+21--------------------
+if (((tmp1 >> 6) & 55) == 1){
+		continue;
+}
+else if (((tmp1 >> 1) & 61) == 45){
+		continue;
+}
+else if (((tmp1 >> 6) & 115) == 1){
+		continue;
+}
+else if (((tmp1 >> 3) & 63) == 11){
+		continue;
+}
+22--------------------
+if (((tmp1 >> 1) & 117) == 17){
+		continue;
+}
+else if (((tmp1 >> 5) & 91) == 1){
+		continue;
+}
+else if (((tmp1 >> 2) & 169) == 8){
+		continue;
+}
+else if (((tmp1 >> 5) & 80) == 0){
+		continue;
+}
+else if (((tmp1 >> 6) & 35) == 0){
+		continue;
+}
+else if (((tmp1 >> 1) & 158) == 24){
+		continue;
+}
+23--------------------
+if (((tmp1 >> 2) & 127) == 13){
+		continue;
+}
+else if (((tmp1 >> 6) & 132) == 0){
+		continue;
+}
+else if (((tmp1 >> 1) & 199) == 2){
+		continue;
+}
+else if (((tmp1 >> 3) & 75) == 2){
+		continue;
+}
+else if (((tmp1 >> 7) & 212) == 0){
+		continue;
+}
+else if (((tmp1 >> 2) & 4) == 4){
+		continue;
+}
+else if (((tmp1 >> 2) & 81) == 1){
+		continue;
+}
+24--------------------
+if (((tmp1 >> 1) & 206) == 14){
+		continue;
+}
+else if (((tmp1 >> 5) & 52) == 0){
+		continue;
+}
+else if (((tmp1 >> 4) & 16) == 0){
+		continue;
+}
+else if (((tmp1 >> 2) & 89) == 17){
+		continue;
+}
+else if (((tmp1 >> 4) & 229) == 5){
+		continue;
+}
+else if (((tmp1 >> 2) & 60) == 20){
+		continue;
+}
+25--------------------
+if (((tmp1 >> 2) & 180) == 20){
+		continue;
+}
+else if (((tmp1 >> 7) & 18) == 0){
+		continue;
+}
+else if (((tmp1 >> 2) & 52) == 20){
+		continue;
+}
+26--------------------
+if (((tmp1 >> 2) & 237) == 13){
+		continue;
+}
+else if (((tmp1 >> 5) & 161) == 1){
+		continue;
+}
+else if (((tmp1 >> 7) & 83) == 0){
+		continue;
+}
+else if (((tmp1 >> 7) & 247) == 0){
+		continue;
+}
+else if (((tmp1 >> 1) & 149) == 16){
+		continue;
+}
+else if (((tmp1 >> 7) & 70) == 0){
+		continue;
+}
+27--------------------
+if (((tmp1 >> 4) & 25) == 0){
+		continue;
+}
+else if ((tmp1 & 165) == 36){
+		continue;
+}
+else if ((tmp1 & 68) == 68){
+		continue;
+}
+else if (((tmp1 >> 5) & 88) == 0){
+		continue;
+}
+else if (((tmp1 >> 1) & 57) == 49){
+		continue;
+}
+else if (((tmp1 >> 2) & 213) == 17){
+		continue;
+}
+else if (((tmp1 >> 3) & 16) == 0){
+		continue;
+}
+else if (((tmp1 >> 2) & 240) == 16){
+		continue;
+}
+28--------------------
+if (((tmp1 >> 5) & 1) == 1){
+		continue;
+}
+else if (((tmp1 >> 3) & 200) == 0){
+		continue;
+}
+else if (((tmp1 >> 7) & 217) == 0){
+		continue;
+}
+else if (((tmp1 >> 6) & 135) == 0){
+		continue;
+}
+else if (((tmp1 >> 6) & 90) == 0){
+		continue;
+}
+else if (((tmp1 >> 5) & 143) == 1){
+		continue;
+}
+29--------------------
+if (((tmp1 >> 1) & 11) == 11){
+		continue;
+}
+else if ((tmp1 & 189) == 29){
+		continue;
+}
+else if (((tmp1 >> 3) & 183) == 3){
+		continue;
+}
+else if (((tmp1 >> 1) & 103) == 39){
+		continue;
+}
+else if (((tmp1 >> 4) & 108) == 4){
+		continue;
+}
+else if (((tmp1 >> 2) & 40) == 0){
+		continue;
+}
+else if (((tmp1 >> 3) & 25) == 9){
+		continue;
+}
+30--------------------
+if (((tmp1 >> 7) & 178) == 0){
+		continue;
+}
+else if (((tmp1 >> 2) & 67) == 3){
+		continue;
+}
+else if (((tmp1 >> 4) & 162) == 2){
+		continue;
+}
+else if (((tmp1 >> 4) & 47) == 6){
+		continue;
+}
+else if (((tmp1 >> 7) & 117) == 0){
+		continue;
+}
+31--------------------
+if (((tmp1 >> 7) & 29) == 0){
+		continue;
+}
+else if ((tmp1 & 205) == 69){
+		continue;
+}
+else if (((tmp1 >> 5) & 109) == 1){
+		continue;
+}
+else if (((tmp1 >> 3) & 255) == 14){
+		continue;
+}
+else if (((tmp1 >> 5) & 234) == 2){
+		continue;
+}
+else if (((tmp1 >> 5) & 195) == 3){
+		continue;
+}
+else if (((tmp1 >> 6) & 35) == 1){
+		continue;
+}
+else if (((tmp1 >> 5) & 136) == 0){
+		continue;
+}
+else if (((tmp1 >> 7) & 47) == 0){
+		continue;
+}
+32--------------------
+if (((tmp1 >> 3) & 141) == 12){
+		continue;
+}
+else if (((tmp1 >> 2) & 72) == 8){
+		continue;
+}
+else if (((tmp1 >> 5) & 104) == 0){
+		continue;
+}
+else if (((tmp1 >> 5) & 224) == 0){
+		continue;
+}
+else if (((tmp1 >> 2) & 188) == 28){
+		continue;
+}
+else if (((tmp1 >> 3) & 98) == 2){
+		continue;
+}
+else if (((tmp1 >> 2) & 155) == 24){
+		continue;
+}
+else if (((tmp1 >> 6) & 75) == 1){
+		continue;
+}
+33--------------------
+if (((tmp1 >> 2) & 30) == 12){
+		continue;
+}
+else if (((tmp1 >> 2) & 37) == 4){
+		continue;
+}
+else if (((tmp1 >> 3) & 217) == 0){
+		continue;
+}
+else if (((tmp1 >> 6) & 21) == 0){
+		continue;
+}
+34--------------------
+if (((tmp1 >> 1) & 163) == 34){
+		continue;
+}
+else if (((tmp1 >> 1) & 182) == 54){
+		continue;
+}
+else if (((tmp1 >> 6) & 127) == 1){
+		continue;
+}
+else if (((tmp1 >> 4) & 10) == 2){
+		continue;
+}
+else if (((tmp1 >> 2) & 72) == 8){
+		continue;
+}
+else if (((tmp1 >> 7) & 135) == 0){
+		continue;
+}
+else if (((tmp1 >> 3) & 34) == 0){
+		continue;
+}
+35--------------------
+if (((tmp1 >> 4) & 117) == 5){
+		continue;
+}
+else if (((tmp1 >> 1) & 56) == 40){
+		continue;
+}
+36--------------------
+if (((tmp1 >> 7) & 238) == 0){
+		continue;
+}
+else if (((tmp1 >> 2) & 36) == 4){
+		continue;
+}
+37--------------------
+if (((tmp1 >> 6) & 29) == 0){
+		continue;
+}
+else if (((tmp1 >> 7) & 71) == 0){
+		continue;
+}
+else if (((tmp1 >> 4) & 149) == 1){
+		continue;
+}
+else if (((tmp1 >> 5) & 71) == 1){
+		continue;
+}
+else if (((tmp1 >> 2) & 172) == 12){
+		continue;
+}
+else if (((tmp1 >> 1) & 86) == 18){
+		continue;
+}
+else if (((tmp1 >> 2) & 241) == 1){
+		continue;
+}
+38--------------------
+if (((tmp1 >> 1) & 153) == 24){
+		continue;
+}
+else if (((tmp1 >> 7) & 179) == 0){
+		continue;
+}
+else if (((tmp1 >> 4) & 20) == 0){
+		continue;
+}
+else if (((tmp1 >> 3) & 149) == 4){
+		continue;
+}
+39--------------------
+if (((tmp1 >> 7) & 192) == 0){
+		continue;
+}
+else if (((tmp1 >> 1) & 197) == 1){
+		continue;
+}
+else if (((tmp1 >> 4) & 16) == 0){
+		continue;
+}
+else if (((tmp1 >> 6) & 105) == 1){
+		continue;
+}
+40--------------------
+if ((tmp1 & 138) == 10){
+		continue;
+}
+else if (((tmp1 >> 2) & 222) == 26){
+		continue;
+}
+else if (((tmp1 >> 5) & 173) == 1){
+		continue;
+}
+else if (((tmp1 >> 4) & 160) == 0){
+		continue;
+}
+else if (((tmp1 >> 4) & 203) == 2){
+		continue;
+}
+else if (((tmp1 >> 3) & 99) == 1){
+		continue;
+}
+41--------------------
+if (((tmp1 >> 7) & 222) == 0){
+		continue;
+}
+else if (((tmp1 >> 3) & 196) == 4){
+		continue;
+}
+else if (((tmp1 >> 3) & 162) == 0){
+		continue;
+}
+else if (((tmp1 >> 3) & 239) == 12){
+		continue;
+}
+else if (((tmp1 >> 3) & 158) == 12){
+		continue;
+}
+else if (((tmp1 >> 7) & 139) == 0){
+		continue;
+}
+else if (((tmp1 >> 3) & 129) == 0){
+		continue;
+}
+else if (((tmp1 >> 1) & 158) == 16){
+		continue;
+}
+else if (((tmp1 >> 5) & 242) == 2){
+		continue;
+}
+42--------------------
+if (((tmp1 >> 7) & 57) == 0){
+		continue;
+}
+else if (((tmp1 >> 6) & 80) == 0){
+		continue;
+}
+else if (((tmp1 >> 5) & 22) == 0){
+		continue;
+}
+else if (((tmp1 >> 1) & 79) == 11){
+		continue;
+}
+43--------------------
+if (((tmp1 >> 6) & 139) == 0){
+		continue;
+}
+else if (((tmp1 >> 4) & 182) == 2){
+		continue;
+}
+else if (((tmp1 >> 2) & 161) == 0){
+		continue;
+}
+44--------------------
+if (((tmp1 >> 6) & 18) == 0){
+		continue;
+}
+else if (((tmp1 >> 4) & 101) == 5){
+		continue;
+}
+else if (((tmp1 >> 2) & 26) == 18){
+		continue;
+}
+else if (((tmp1 >> 5) & 42) == 2){
+		continue;
+}
+45--------------------
+if (((tmp1 >> 5) & 83) == 3){
+		continue;
+}
+else if (((tmp1 >> 4) & 178) == 2){
+		continue;
+}
+else if (((tmp1 >> 4) & 22) == 6){
+		continue;
+}
+46--------------------
+if (((tmp1 >> 4) & 17) == 1){
+		continue;
+}
+else if (((tmp1 >> 7) & 146) == 0){
+		continue;
+}
+else if (((tmp1 >> 1) & 240) == 16){
+		continue;
+}
+else if (((tmp1 >> 2) & 100) == 4){
+		continue;
+}
+47--------------------
+if (((tmp1 >> 7) & 123) == 0){
+		continue;
+}
+else if (((tmp1 >> 6) & 227) == 1){
+		continue;
+}
+else if (((tmp1 >> 4) & 111) == 5){
+		continue;
+}
+else if (((tmp1 >> 4) & 246) == 4){
+		continue;
+}
+else if (((tmp1 >> 5) & 241) == 0){
+		continue;
+}
+48--------------------
+if (((tmp1 >> 7) & 120) == 0){
+		continue;
+}
+else if (((tmp1 >> 3) & 15) == 6){
+		continue;
+}
+else if (((tmp1 >> 1) & 200) == 8){
+		continue;
+}
+else if (((tmp1 >> 6) & 109) == 0){
+		continue;
+}
+else if (((tmp1 >> 2) & 26) == 8){
+		continue;
+}
+else if (((tmp1 >> 7) & 85) == 0){
+		continue;
+}
+49--------------------
+if (((tmp1 >> 2) & 71) == 5){
+		continue;
+}
+50--------------------
+if (((tmp1 >> 2) & 120) == 24){
+		continue;
+}
+else if (((tmp1 >> 6) & 17) == 1){
+		continue;
+}
+else if (((tmp1 >> 7) & 166) == 0){
+		continue;
+}
+else if (((tmp1 >> 3) & 40) == 8){
+		continue;
+}
+else if (((tmp1 >> 5) & 52) == 0){
+		continue;
+}

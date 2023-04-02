@@ -1,0 +1,5 @@
+Am descarcat fisierul .py si am vazult multitudinea de assert-uri. Am creat un script python care a extras asssert urile care depindeau de o singura variabila 
+si le-am transformat in instructiunii in c++ (care le-am rulat manual) pentru a gasi toate caracterele printabile care satisfac conditia respectiva, dupa care 
+le-am salvat intr-un fisier. Apoi am extras instructiuniile binare si le-am transformat din nou in intructiunii c++ care le-am rulat manual pentru a restrange 
+optiunile de caractere. Dupa ce am ajuns la aproape un caracter pe pozitie am incercat de cateva ori in program cu acele string-uri si pe baza assert-urilor am 
+ales ultimele caractere. Asa am gasit flag ul.

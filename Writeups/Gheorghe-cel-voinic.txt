@@ -1,0 +1,4 @@
+Pentru acest challenge am creat un script in python care sa mi transforme maze-ul copiat din terminal intr-un vector bidimensional de c++ (sub forma {{-1, 0, 0, 0}, {-1,-1,-1,-1}}).
+Cu ajutorul unui program c++ am gasit cum sa ajung de la P la O avand in vedere codarea, -1 obstacol si 0 loc liber. Directiile le-am scris intr-un fisier si le-am copiat in terminal
+cand am pornit conexiunea. Algoritmul e in stil adancime cu prioritate mersul in jos. Si la ultimul nivel am folosit o combinatie de miscarile folosite pana acum si o parcurgere in spirala,
+stanga sus dreapta jos de multe ori si am incercat pana am reusit ultimul nivel.

@@ -1,0 +1,4 @@
+Am descarcat fisierul .py si am realizat ca encriptia respectiva este hill encryption. Am observat ca in cod se da encriptia finala si primele 9 caractere din plaintext.
+Folsindu-ma de aceste 2 informatii am reusit sa scot pe baza unor ecuatii matricea de 3x3 care este cheia, dupa care am transformat numerele in charactere.
+Pe baza cheii si pe baza valorilor finale am reusit sa aflu textul initial care trebuie introdus pentru a vedea flag-ul. Acestea le-am aflat cu un script de
+bruteforce.

@@ -1,0 +1,4148 @@
+int x = 2, y = 3;
+vector<char>chars1 = get_chars(2);
+vector<char>chars2 = get_chars(3);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 ^ 27) ^ tmp2) != 29 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 3, y = 27;
+vector<char>chars1 = get_chars(3);
+vector<char>chars2 = get_chars(27);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 ^ 91) ^ tmp2) != 118 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 13, y = 16;
+vector<char>chars1 = get_chars(13);
+vector<char>chars2 = get_chars(16);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 2736 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 10, y = 15;
+vector<char>chars1 = get_chars(10);
+vector<char>chars2 = get_chars(15);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 2))) != 21996 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 45, y = 13;
+vector<char>chars1 = get_chars(45);
+vector<char>chars2 = get_chars(13);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 * tmp2)) != 5200 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 38, y = 39;
+vector<char>chars1 = get_chars(38);
+vector<char>chars2 = get_chars(39);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 3))) != 5472 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 18, y = 50;
+vector<char>chars1 = get_chars(18);
+vector<char>chars2 = get_chars(50);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 & tmp2)) != 93 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 46, y = 6;
+vector<char>chars1 = get_chars(46);
+vector<char>chars2 = get_chars(6);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 + tmp2)) != 165 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 20, y = 6;
+vector<char>chars1 = get_chars(20);
+vector<char>chars2 = get_chars(6);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 * tmp2)) != 5814 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 23, y = 38;
+vector<char>chars1 = get_chars(23);
+vector<char>chars2 = get_chars(38);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 + tmp2)) != 104 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 49, y = 0;
+vector<char>chars1 = get_chars(49);
+vector<char>chars2 = get_chars(0);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 & tmp2)) != 0 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 17, y = 7;
+vector<char>chars1 = get_chars(17);
+vector<char>chars2 = get_chars(7);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 * tmp2)) != 2548 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 15, y = 28;
+vector<char>chars1 = get_chars(15);
+vector<char>chars2 = get_chars(28);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 ^ 78) ^ tmp2) != 15 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 35, y = 27;
+vector<char>chars1 = get_chars(35);
+vector<char>chars2 = get_chars(27);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 4840 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 30, y = 15;
+vector<char>chars1 = get_chars(30);
+vector<char>chars2 = get_chars(15);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 3))) != 50544 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 3, y = 39;
+vector<char>chars1 = get_chars(3);
+vector<char>chars2 = get_chars(39);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 * tmp2)) != 7638 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 28, y = 21;
+vector<char>chars1 = get_chars(28);
+vector<char>chars2 = get_chars(21);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 3))) != 19760 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 19, y = 48;
+vector<char>chars1 = get_chars(19);
+vector<char>chars2 = get_chars(48);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 + tmp2)) != 151 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 28, y = 0;
+vector<char>chars1 = get_chars(28);
+vector<char>chars2 = get_chars(0);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 2))) != 3796 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 24, y = 37;
+vector<char>chars1 = get_chars(24);
+vector<char>chars2 = get_chars(37);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 - tmp2)) != 40 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 48, y = 13;
+vector<char>chars1 = get_chars(48);
+vector<char>chars2 = get_chars(13);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 ^ 194) ^ tmp2) != 197 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 41, y = 45;
+vector<char>chars1 = get_chars(41);
+vector<char>chars2 = get_chars(45);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 + tmp2)) != 197 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 11, y = 48;
+vector<char>chars1 = get_chars(11);
+vector<char>chars2 = get_chars(48);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 - tmp2)) != 1 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 36, y = 31;
+vector<char>chars1 = get_chars(36);
+vector<char>chars2 = get_chars(31);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 - tmp2)) != -65 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 42, y = 9;
+vector<char>chars1 = get_chars(42);
+vector<char>chars2 = get_chars(9);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 * tmp2)) != 5995 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 17, y = 31;
+vector<char>chars1 = get_chars(17);
+vector<char>chars2 = get_chars(31);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 - tmp2)) != -68 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 22, y = 17;
+vector<char>chars1 = get_chars(22);
+vector<char>chars2 = get_chars(17);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 1176 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 30, y = 39;
+vector<char>chars1 = get_chars(30);
+vector<char>chars2 = get_chars(39);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 ^ 133) ^ tmp2) != 154 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 43, y = 47;
+vector<char>chars1 = get_chars(43);
+vector<char>chars2 = get_chars(47);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 - tmp2)) != -46 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 20, y = 44;
+vector<char>chars1 = get_chars(20);
+vector<char>chars2 = get_chars(44);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 * tmp2)) != 4845 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 28, y = 18;
+vector<char>chars1 = get_chars(28);
+vector<char>chars2 = get_chars(18);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 + tmp2)) != 147 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 36, y = 7;
+vector<char>chars1 = get_chars(36);
+vector<char>chars2 = get_chars(7);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 * tmp2)) != 2704 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 16, y = 8;
+vector<char>chars1 = get_chars(16);
+vector<char>chars2 = get_chars(8);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 * tmp2)) != 5586 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 46, y = 40;
+vector<char>chars1 = get_chars(46);
+vector<char>chars2 = get_chars(40);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 10560 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 15, y = 35;
+vector<char>chars1 = get_chars(15);
+vector<char>chars2 = get_chars(35);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 & tmp2)) != 85 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 42, y = 45;
+vector<char>chars1 = get_chars(42);
+vector<char>chars2 = get_chars(45);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 & tmp2)) != 36 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 48, y = 40;
+vector<char>chars1 = get_chars(48);
+vector<char>chars2 = get_chars(40);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 + tmp2)) != 161 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 2, y = 20;
+vector<char>chars1 = get_chars(2);
+vector<char>chars2 = get_chars(20);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 ^ 77) ^ tmp2) != 59 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 42, y = 13;
+vector<char>chars1 = get_chars(42);
+vector<char>chars2 = get_chars(13);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 * tmp2)) != 2860 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 43, y = 17;
+vector<char>chars1 = get_chars(43);
+vector<char>chars2 = get_chars(17);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 4704 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 23, y = 49;
+vector<char>chars1 = get_chars(23);
+vector<char>chars2 = get_chars(49);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 + tmp2)) != 104 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 1, y = 50;
+vector<char>chars1 = get_chars(1);
+vector<char>chars2 = get_chars(50);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 ^ 86) ^ tmp2) != 127 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 32, y = 31;
+vector<char>chars1 = get_chars(32);
+vector<char>chars2 = get_chars(31);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 + tmp2)) != 231 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 48, y = 15;
+vector<char>chars1 = get_chars(48);
+vector<char>chars2 = get_chars(15);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 * tmp2)) != 5967 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 41, y = 44;
+vector<char>chars1 = get_chars(41);
+vector<char>chars2 = get_chars(44);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 3))) != 36480 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 33, y = 34;
+vector<char>chars1 = get_chars(33);
+vector<char>chars2 = get_chars(34);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 ^ 13) ^ tmp2) != 81 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 41, y = 38;
+vector<char>chars1 = get_chars(41);
+vector<char>chars2 = get_chars(38);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 ^ 115) ^ tmp2) != 38 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 6, y = 44;
+vector<char>chars1 = get_chars(6);
+vector<char>chars2 = get_chars(44);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 - tmp2)) != 19 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 4, y = 18;
+vector<char>chars1 = get_chars(4);
+vector<char>chars2 = get_chars(18);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 ^ 149) ^ tmp2) != 177 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 8, y = 47;
+vector<char>chars1 = get_chars(8);
+vector<char>chars2 = get_chars(47);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 + tmp2)) != 144 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 27, y = 48;
+vector<char>chars1 = get_chars(27);
+vector<char>chars2 = get_chars(48);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 - tmp2)) != 59 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 37, y = 18;
+vector<char>chars1 = get_chars(37);
+vector<char>chars2 = get_chars(18);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 - tmp2)) != -40 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 36, y = 18;
+vector<char>chars1 = get_chars(36);
+vector<char>chars2 = get_chars(18);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 & tmp2)) != 20 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 41, y = 5;
+vector<char>chars1 = get_chars(41);
+vector<char>chars2 = get_chars(5);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 - tmp2)) != -19 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 8, y = 15;
+vector<char>chars1 = get_chars(8);
+vector<char>chars2 = get_chars(15);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 + tmp2)) != 166 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 48, y = 25;
+vector<char>chars1 = get_chars(48);
+vector<char>chars2 = get_chars(25);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 & tmp2)) != 48 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 27, y = 3;
+vector<char>chars1 = get_chars(27);
+vector<char>chars2 = get_chars(3);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 - tmp2)) != 43 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 29, y = 43;
+vector<char>chars1 = get_chars(29);
+vector<char>chars2 = get_chars(43);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 & tmp2)) != 17 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 6, y = 39;
+vector<char>chars1 = get_chars(6);
+vector<char>chars2 = get_chars(39);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 & tmp2)) != 114 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 5, y = 14;
+vector<char>chars1 = get_chars(5);
+vector<char>chars2 = get_chars(14);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 & tmp2)) != 116 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 29, y = 4;
+vector<char>chars1 = get_chars(29);
+vector<char>chars2 = get_chars(4);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 3))) != 10824 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 50, y = 20;
+vector<char>chars1 = get_chars(50);
+vector<char>chars2 = get_chars(20);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if(((tmp1 & tmp2)) != 49 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 15, y = 50;
+vector<char>chars1 = get_chars(15);
+vector<char>chars2 = get_chars(50);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 2))) != 29000 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 47, y = 42;
+vector<char>chars1 = get_chars(47);
+vector<char>chars2 = get_chars(42);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 2))) != 5060 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 13, y = 24;
+vector<char>chars1 = get_chars(13);
+vector<char>chars2 = get_chars(24);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 1))) != 4940 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 23, y = 40;
+vector<char>chars1 = get_chars(23);
+vector<char>chars2 = get_chars(40);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 11440 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 13, y = 47;
+vector<char>chars1 = get_chars(13);
+vector<char>chars2 = get_chars(47);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 1))) != 4940 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 38, y = 44;
+vector<char>chars1 = get_chars(38);
+vector<char>chars2 = get_chars(44);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 2))) != 9880 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 27, y = 28;
+vector<char>chars1 = get_chars(27);
+vector<char>chars2 = get_chars(28);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 1))) != 2808 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 3, y = 40;
+vector<char>chars1 = get_chars(3);
+vector<char>chars2 = get_chars(40);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 1))) != 1760 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 21, y = 19;
+vector<char>chars1 = get_chars(21);
+vector<char>chars2 = get_chars(19);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 3))) != 37600 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 35, y = 17;
+vector<char>chars1 = get_chars(35);
+vector<char>chars2 = get_chars(17);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 3))) != 18424 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 0, y = 26;
+vector<char>chars1 = get_chars(0);
+vector<char>chars2 = get_chars(26);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 3))) != 14976 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 21, y = 16;
+vector<char>chars1 = get_chars(21);
+vector<char>chars2 = get_chars(16);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 2))) != 21432 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 2, y = 44;
+vector<char>chars1 = get_chars(2);
+vector<char>chars2 = get_chars(44);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 1))) != 6460 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 34, y = 44;
+vector<char>chars1 = get_chars(34);
+vector<char>chars2 = get_chars(44);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 20520 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 22, y = 23;
+vector<char>chars1 = get_chars(22);
+vector<char>chars2 = get_chars(23);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 1))) != 2600 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 28, y = 17;
+vector<char>chars1 = get_chars(28);
+vector<char>chars2 = get_chars(17);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 3))) != 2352 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 25, y = 32;
+vector<char>chars1 = get_chars(25);
+vector<char>chars2 = get_chars(32);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 1))) != 3192 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 19, y = 48;
+vector<char>chars1 = get_chars(19);
+vector<char>chars2 = get_chars(48);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 2))) != 10200 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 36, y = 22;
+vector<char>chars1 = get_chars(36);
+vector<char>chars2 = get_chars(22);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 1))) != 2652 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 31, y = 15;
+vector<char>chars1 = get_chars(31);
+vector<char>chars2 = get_chars(15);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 6552 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 0, y = 46;
+vector<char>chars1 = get_chars(0);
+vector<char>chars2 = get_chars(46);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 7344 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 24, y = 11;
+vector<char>chars1 = get_chars(24);
+vector<char>chars2 = get_chars(11);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 2))) != 4784 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 8, y = 41;
+vector<char>chars1 = get_chars(8);
+vector<char>chars2 = get_chars(41);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 1))) != 1164 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 7, y = 26;
+vector<char>chars1 = get_chars(7);
+vector<char>chars2 = get_chars(26);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 5408 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 35, y = 43;
+vector<char>chars1 = get_chars(35);
+vector<char>chars2 = get_chars(43);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 1))) != 1078 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 43, y = 48;
+vector<char>chars1 = get_chars(43);
+vector<char>chars2 = get_chars(48);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 3))) != 2448 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 29, y = 19;
+vector<char>chars1 = get_chars(29);
+vector<char>chars2 = get_chars(19);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 2))) != 9200 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 28, y = 8;
+vector<char>chars1 = get_chars(28);
+vector<char>chars2 = get_chars(8);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 2))) != 2548 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 48, y = 1;
+vector<char>chars1 = get_chars(48);
+vector<char>chars2 = get_chars(1);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 2))) != 4032 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 15, y = 8;
+vector<char>chars1 = get_chars(15);
+vector<char>chars2 = get_chars(8);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 3))) != 5488 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 30, y = 42;
+vector<char>chars1 = get_chars(30);
+vector<char>chars2 = get_chars(42);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 3))) != 23760 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 6, y = 14;
+vector<char>chars1 = get_chars(6);
+vector<char>chars2 = get_chars(14);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 3))) != 12992 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 22, y = 48;
+vector<char>chars1 = get_chars(22);
+vector<char>chars2 = get_chars(48);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 4896 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 33, y = 5;
+vector<char>chars1 = get_chars(33);
+vector<char>chars2 = get_chars(5);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 1))) != 1392 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 28, y = 30;
+vector<char>chars1 = get_chars(28);
+vector<char>chars2 = get_chars(30);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 2616 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 3, y = 34;
+vector<char>chars1 = get_chars(3);
+vector<char>chars2 = get_chars(34);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 3))) != 6976 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 40, y = 44;
+vector<char>chars1 = get_chars(40);
+vector<char>chars2 = get_chars(44);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 1))) != 5130 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 18, y = 30;
+vector<char>chars1 = get_chars(18);
+vector<char>chars2 = get_chars(30);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 1))) != 10246 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 2, y = 47;
+vector<char>chars1 = get_chars(2);
+vector<char>chars2 = get_chars(47);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 12920 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 27, y = 37;
+vector<char>chars1 = get_chars(27);
+vector<char>chars2 = get_chars(37);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 2))) != 5940 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 26, y = 16;
+vector<char>chars1 = get_chars(26);
+vector<char>chars2 = get_chars(16);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 2736 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 11, y = 49;
+vector<char>chars1 = get_chars(11);
+vector<char>chars2 = get_chars(49);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 1248 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 6, y = 9;
+vector<char>chars1 = get_chars(6);
+vector<char>chars2 = get_chars(9);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 3))) != 12208 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 20, y = 25;
+vector<char>chars1 = get_chars(20);
+vector<char>chars2 = get_chars(25);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 2688 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 36, y = 0;
+vector<char>chars1 = get_chars(36);
+vector<char>chars2 = get_chars(0);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 7592 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 11, y = 22;
+vector<char>chars1 = get_chars(11);
+vector<char>chars2 = get_chars(22);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 1224 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 46, y = 9;
+vector<char>chars1 = get_chars(46);
+vector<char>chars2 = get_chars(9);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 1))) != 2616 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 21, y = 7;
+vector<char>chars1 = get_chars(21);
+vector<char>chars2 = get_chars(7);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 3))) != 19552 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 50, y = 30;
+vector<char>chars1 = get_chars(50);
+vector<char>chars2 = get_chars(30);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 27032 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 24, y = 3;
+vector<char>chars1 = get_chars(24);
+vector<char>chars2 = get_chars(3);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 3))) != 5896 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 3, y = 1;
+vector<char>chars1 = get_chars(3);
+vector<char>chars2 = get_chars(1);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 3))) != 22176 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 27, y = 17;
+vector<char>chars1 = get_chars(27);
+vector<char>chars2 = get_chars(17);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 3))) != 5096 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 15, y = 28;
+vector<char>chars1 = get_chars(15);
+vector<char>chars2 = get_chars(28);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 2912 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 33, y = 40;
+vector<char>chars1 = get_chars(33);
+vector<char>chars2 = get_chars(40);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 3))) != 21120 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 24, y = 12;
+vector<char>chars1 = get_chars(24);
+vector<char>chars2 = get_chars(12);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 1))) != 10152 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 32, y = 33;
+vector<char>chars1 = get_chars(32);
+vector<char>chars2 = get_chars(33);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 1))) != 2744 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 46, y = 17;
+vector<char>chars1 = get_chars(46);
+vector<char>chars2 = get_chars(17);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 1))) != 1176 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 32, y = 3;
+vector<char>chars1 = get_chars(32);
+vector<char>chars2 = get_chars(3);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 3))) != 30552 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 42, y = 0;
+vector<char>chars1 = get_chars(42);
+vector<char>chars2 = get_chars(0);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 1752 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 12, y = 45;
+vector<char>chars1 = get_chars(12);
+vector<char>chars2 = get_chars(45);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 2))) != 21600 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 16, y = 43;
+vector<char>chars1 = get_chars(16);
+vector<char>chars2 = get_chars(43);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 10976 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 17, y = 38;
+vector<char>chars1 = get_chars(17);
+vector<char>chars2 = get_chars(38);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 2))) != 2496 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 39, y = 46;
+vector<char>chars1 = get_chars(39);
+vector<char>chars2 = get_chars(46);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 2856 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 33, y = 0;
+vector<char>chars1 = get_chars(33);
+vector<char>chars2 = get_chars(0);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 2))) != 7008 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 1, y = 44;
+vector<char>chars1 = get_chars(1);
+vector<char>chars2 = get_chars(44);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 3))) != 7600 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 14, y = 17;
+vector<char>chars1 = get_chars(14);
+vector<char>chars2 = get_chars(17);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 1))) != 2842 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 3, y = 25;
+vector<char>chars1 = get_chars(3);
+vector<char>chars2 = get_chars(25);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 14336 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 48, y = 0;
+vector<char>chars1 = get_chars(48);
+vector<char>chars2 = get_chars(0);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 2))) != 7300 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 38, y = 25;
+vector<char>chars1 = get_chars(38);
+vector<char>chars2 = get_chars(25);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 3))) != 23296 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 36, y = 22;
+vector<char>chars1 = get_chars(36);
+vector<char>chars2 = get_chars(22);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 3))) != 2448 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 29, y = 8;
+vector<char>chars1 = get_chars(29);
+vector<char>chars2 = get_chars(8);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 1))) != 4606 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 47, y = 6;
+vector<char>chars1 = get_chars(47);
+vector<char>chars2 = get_chars(6);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 20976 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 10, y = 23;
+vector<char>chars1 = get_chars(10);
+vector<char>chars2 = get_chars(23);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 9568 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 4, y = 37;
+vector<char>chars1 = get_chars(4);
+vector<char>chars2 = get_chars(37);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 3300 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 44, y = 3;
+vector<char>chars1 = get_chars(44);
+vector<char>chars2 = get_chars(3);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 12328 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 10, y = 46;
+vector<char>chars1 = get_chars(10);
+vector<char>chars2 = get_chars(46);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 1))) != 2346 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 39, y = 35;
+vector<char>chars1 = get_chars(39);
+vector<char>chars2 = get_chars(35);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 1))) != 5320 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 27, y = 28;
+vector<char>chars1 = get_chars(27);
+vector<char>chars2 = get_chars(28);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 1))) != 5720 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 7, y = 14;
+vector<char>chars1 = get_chars(7);
+vector<char>chars2 = get_chars(14);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 1))) != 1392 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 3, y = 1;
+vector<char>chars1 = get_chars(3);
+vector<char>chars2 = get_chars(1);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 2688 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 46, y = 34;
+vector<char>chars1 = get_chars(46);
+vector<char>chars2 = get_chars(34);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 10464 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 41, y = 36;
+vector<char>chars1 = get_chars(41);
+vector<char>chars2 = get_chars(36);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 1))) != 1248 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 32, y = 33;
+vector<char>chars1 = get_chars(32);
+vector<char>chars2 = get_chars(33);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 3))) != 5488 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 34, y = 18;
+vector<char>chars1 = get_chars(34);
+vector<char>chars2 = get_chars(18);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 20520 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 1, y = 15;
+vector<char>chars1 = get_chars(1);
+vector<char>chars2 = get_chars(15);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 2))) != 9828 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 2, y = 21;
+vector<char>chars1 = get_chars(2);
+vector<char>chars2 = get_chars(21);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 2))) != 12920 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 25, y = 31;
+vector<char>chars1 = get_chars(25);
+vector<char>chars2 = get_chars(31);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 2))) != 13104 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 34, y = 33;
+vector<char>chars1 = get_chars(34);
+vector<char>chars2 = get_chars(33);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 1))) != 5292 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 29, y = 50;
+vector<char>chars1 = get_chars(29);
+vector<char>chars2 = get_chars(50);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 2))) != 23500 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 48, y = 35;
+vector<char>chars1 = get_chars(48);
+vector<char>chars2 = get_chars(35);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 2280 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 6, y = 27;
+vector<char>chars1 = get_chars(6);
+vector<char>chars2 = get_chars(27);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 1))) != 12540 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 0, y = 7;
+vector<char>chars1 = get_chars(0);
+vector<char>chars2 = get_chars(7);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 3))) != 3744 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 12, y = 32;
+vector<char>chars1 = get_chars(12);
+vector<char>chars2 = get_chars(32);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 5928 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 6, y = 19;
+vector<char>chars1 = get_chars(6);
+vector<char>chars2 = get_chars(19);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 1))) != 2800 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 43, y = 40;
+vector<char>chars1 = get_chars(43);
+vector<char>chars2 = get_chars(40);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 10560 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 8, y = 48;
+vector<char>chars1 = get_chars(8);
+vector<char>chars2 = get_chars(48);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 3))) != 9792 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 5, y = 31;
+vector<char>chars1 = get_chars(5);
+vector<char>chars2 = get_chars(31);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 1))) != 6786 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 25, y = 1;
+vector<char>chars1 = get_chars(25);
+vector<char>chars2 = get_chars(1);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 1))) != 2352 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 27, y = 30;
+vector<char>chars1 = get_chars(27);
+vector<char>chars2 = get_chars(30);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 23544 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 39, y = 3;
+vector<char>chars1 = get_chars(39);
+vector<char>chars2 = get_chars(3);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 3752 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 19, y = 23;
+vector<char>chars1 = get_chars(19);
+vector<char>chars2 = get_chars(23);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 1))) != 1248 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 1, y = 47;
+vector<char>chars1 = get_chars(1);
+vector<char>chars2 = get_chars(47);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 2))) != 7980 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 34, y = 38;
+vector<char>chars1 = get_chars(34);
+vector<char>chars2 = get_chars(38);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 2))) != 5616 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 5, y = 22;
+vector<char>chars1 = get_chars(5);
+vector<char>chars2 = get_chars(22);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 2))) != 11832 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 11, y = 38;
+vector<char>chars1 = get_chars(11);
+vector<char>chars2 = get_chars(38);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 3))) != 2496 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 26, y = 5;
+vector<char>chars1 = get_chars(26);
+vector<char>chars2 = get_chars(5);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 1))) != 1392 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 22, y = 39;
+vector<char>chars1 = get_chars(22);
+vector<char>chars2 = get_chars(39);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 3))) != 5472 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 13, y = 22;
+vector<char>chars1 = get_chars(13);
+vector<char>chars2 = get_chars(22);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 3))) != 10608 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 34, y = 10;
+vector<char>chars1 = get_chars(34);
+vector<char>chars2 = get_chars(10);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 1))) != 5130 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 9, y = 29;
+vector<char>chars1 = get_chars(9);
+vector<char>chars2 = get_chars(29);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 20520 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 21, y = 23;
+vector<char>chars1 = get_chars(21);
+vector<char>chars2 = get_chars(23);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 9568 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 48, y = 32;
+vector<char>chars1 = get_chars(48);
+vector<char>chars2 = get_chars(32);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 1))) != 2736 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 49, y = 7;
+vector<char>chars1 = get_chars(49);
+vector<char>chars2 = get_chars(7);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 3))) != 10816 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 33, y = 46;
+vector<char>chars1 = get_chars(33);
+vector<char>chars2 = get_chars(46);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 1224 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 42, y = 29;
+vector<char>chars1 = get_chars(42);
+vector<char>chars2 = get_chars(29);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 2280 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 2, y = 42;
+vector<char>chars1 = get_chars(2);
+vector<char>chars2 = get_chars(42);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 1))) != 880 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 13, y = 31;
+vector<char>chars1 = get_chars(13);
+vector<char>chars2 = get_chars(31);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 1))) != 1404 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 21, y = 1;
+vector<char>chars1 = get_chars(21);
+vector<char>chars2 = get_chars(1);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 3696 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 12, y = 39;
+vector<char>chars1 = get_chars(12);
+vector<char>chars2 = get_chars(39);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 1))) != 6156 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 2, y = 48;
+vector<char>chars1 = get_chars(2);
+vector<char>chars2 = get_chars(48);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 3))) != 3264 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 20, y = 6;
+vector<char>chars1 = get_chars(20);
+vector<char>chars2 = get_chars(6);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 1))) != 5700 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 47, y = 9;
+vector<char>chars1 = get_chars(47);
+vector<char>chars2 = get_chars(9);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 1))) != 10246 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 12, y = 37;
+vector<char>chars1 = get_chars(12);
+vector<char>chars2 = get_chars(37);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 1))) != 5940 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 33, y = 30;
+vector<char>chars1 = get_chars(33);
+vector<char>chars2 = get_chars(30);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 1))) != 1308 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 16, y = 21;
+vector<char>chars1 = get_chars(16);
+vector<char>chars2 = get_chars(21);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 3))) != 43320 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 5, y = 8;
+vector<char>chars1 = get_chars(5);
+vector<char>chars2 = get_chars(8);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 3))) != 22736 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 15, y = 12;
+vector<char>chars1 = get_chars(15);
+vector<char>chars2 = get_chars(12);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 25056 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 23, y = 32;
+vector<char>chars1 = get_chars(23);
+vector<char>chars2 = get_chars(32);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 1))) != 5928 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 14, y = 35;
+vector<char>chars1 = get_chars(14);
+vector<char>chars2 = get_chars(35);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 1))) != 11020 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 13, y = 8;
+vector<char>chars1 = get_chars(13);
+vector<char>chars2 = get_chars(8);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 3))) != 10192 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 0, y = 46;
+vector<char>chars1 = get_chars(0);
+vector<char>chars2 = get_chars(46);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 1))) != 1836 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 43, y = 15;
+vector<char>chars1 = get_chars(43);
+vector<char>chars2 = get_chars(15);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 2808 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 39, y = 42;
+vector<char>chars1 = get_chars(39);
+vector<char>chars2 = get_chars(42);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 1))) != 6270 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 49, y = 33;
+vector<char>chars1 = get_chars(49);
+vector<char>chars2 = get_chars(33);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 3))) != 10192 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 0, y = 35;
+vector<char>chars1 = get_chars(0);
+vector<char>chars2 = get_chars(35);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 13680 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 41, y = 50;
+vector<char>chars1 = get_chars(41);
+vector<char>chars2 = get_chars(50);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 1))) != 12000 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 31, y = 6;
+vector<char>chars1 = get_chars(31);
+vector<char>chars2 = get_chars(6);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 3))) != 12768 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 50, y = 31;
+vector<char>chars1 = get_chars(50);
+vector<char>chars2 = get_chars(31);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 2))) != 29016 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 11, y = 40;
+vector<char>chars1 = get_chars(11);
+vector<char>chars2 = get_chars(40);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 2))) != 11440 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 35, y = 47;
+vector<char>chars1 = get_chars(35);
+vector<char>chars2 = get_chars(47);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 1))) != 2090 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 27, y = 0;
+vector<char>chars1 = get_chars(27);
+vector<char>chars2 = get_chars(0);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 3796 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 2, y = 49;
+vector<char>chars1 = get_chars(2);
+vector<char>chars2 = get_chars(49);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 7072 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 11, y = 23;
+vector<char>chars1 = get_chars(11);
+vector<char>chars2 = get_chars(23);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 2))) != 2704 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 48, y = 22;
+vector<char>chars1 = get_chars(48);
+vector<char>chars2 = get_chars(22);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 1))) != 612 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 1, y = 34;
+vector<char>chars1 = get_chars(1);
+vector<char>chars2 = get_chars(34);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 3))) != 8720 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 45, y = 2;
+vector<char>chars1 = get_chars(45);
+vector<char>chars2 = get_chars(2);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 2))) != 13800 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 9, y = 23;
+vector<char>chars1 = get_chars(9);
+vector<char>chars2 = get_chars(23);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 3))) != 5408 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 29, y = 13;
+vector<char>chars1 = get_chars(29);
+vector<char>chars2 = get_chars(13);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 2))) != 4784 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 25, y = 12;
+vector<char>chars1 = get_chars(25);
+vector<char>chars2 = get_chars(12);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 2))) != 12096 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 3, y = 46;
+vector<char>chars1 = get_chars(3);
+vector<char>chars2 = get_chars(46);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 1))) != 1632 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 25, y = 45;
+vector<char>chars1 = get_chars(25);
+vector<char>chars2 = get_chars(45);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 2))) != 11200 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 9, y = 23;
+vector<char>chars1 = get_chars(9);
+vector<char>chars2 = get_chars(23);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 2704 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 46, y = 4;
+vector<char>chars1 = get_chars(46);
+vector<char>chars2 = get_chars(4);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 1))) != 2952 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 21, y = 15;
+vector<char>chars1 = get_chars(21);
+vector<char>chars2 = get_chars(15);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 1))) != 2574 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 12, y = 42;
+vector<char>chars1 = get_chars(12);
+vector<char>chars2 = get_chars(42);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 2))) != 11880 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 26, y = 1;
+vector<char>chars1 = get_chars(26);
+vector<char>chars2 = get_chars(1);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 2))) != 4368 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 44, y = 24;
+vector<char>chars1 = get_chars(44);
+vector<char>chars2 = get_chars(24);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 4180 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 21, y = 8;
+vector<char>chars1 = get_chars(21);
+vector<char>chars2 = get_chars(8);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 9016 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 13, y = 47;
+vector<char>chars1 = get_chars(13);
+vector<char>chars2 = get_chars(47);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 1))) != 4940 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 12, y = 4;
+vector<char>chars1 = get_chars(12);
+vector<char>chars2 = get_chars(4);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 3))) != 53136 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 1, y = 16;
+vector<char>chars1 = get_chars(1);
+vector<char>chars2 = get_chars(16);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 1))) != 9576 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 45, y = 2;
+vector<char>chars1 = get_chars(45);
+vector<char>chars2 = get_chars(2);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 1))) != 3450 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 28, y = 0;
+vector<char>chars1 = get_chars(28);
+vector<char>chars2 = get_chars(0);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 2))) != 3796 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 10, y = 7;
+vector<char>chars1 = get_chars(10);
+vector<char>chars2 = get_chars(7);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 2288 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 20, y = 21;
+vector<char>chars1 = get_chars(20);
+vector<char>chars2 = get_chars(21);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 3))) != 19000 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 32, y = 17;
+vector<char>chars1 = get_chars(32);
+vector<char>chars2 = get_chars(17);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 3))) != 5488 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 11, y = 47;
+vector<char>chars1 = get_chars(11);
+vector<char>chars2 = get_chars(47);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 1))) != 1140 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 9, y = 10;
+vector<char>chars1 = get_chars(9);
+vector<char>chars2 = get_chars(10);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 3))) != 41040 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 9, y = 13;
+vector<char>chars1 = get_chars(9);
+vector<char>chars2 = get_chars(13);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 1))) != 5616 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 49, y = 40;
+vector<char>chars1 = get_chars(49);
+vector<char>chars2 = get_chars(40);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 2))) != 11440 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 13, y = 34;
+vector<char>chars1 = get_chars(13);
+vector<char>chars2 = get_chars(34);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 2))) != 5668 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 24, y = 42;
+vector<char>chars1 = get_chars(24);
+vector<char>chars2 = get_chars(42);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 1))) != 5170 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 46, y = 14;
+vector<char>chars1 = get_chars(46);
+vector<char>chars2 = get_chars(14);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 1))) != 2784 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 38, y = 44;
+vector<char>chars1 = get_chars(38);
+vector<char>chars2 = get_chars(44);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 3))) != 4560 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 34, y = 3;
+vector<char>chars1 = get_chars(34);
+vector<char>chars2 = get_chars(3);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 2))) != 3484 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 13, y = 11;
+vector<char>chars1 = get_chars(13);
+vector<char>chars2 = get_chars(11);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 1))) != 1352 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 49, y = 31;
+vector<char>chars1 = get_chars(49);
+vector<char>chars2 = get_chars(31);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 1))) != 6084 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 28, y = 46;
+vector<char>chars1 = get_chars(28);
+vector<char>chars2 = get_chars(46);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 2) * (tmp2 << 3))) != 5304 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 37, y = 46;
+vector<char>chars1 = get_chars(37);
+vector<char>chars2 = get_chars(46);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 3))) != 2448 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 38, y = 6;
+vector<char>chars1 = get_chars(38);
+vector<char>chars2 = get_chars(6);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 3))) != 23712 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 44, y = 18;
+vector<char>chars1 = get_chars(44);
+vector<char>chars2 = get_chars(18);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 1) * (tmp2 << 2))) != 17860 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------
+int x = 49, y = 20;
+vector<char>chars1 = get_chars(49);
+vector<char>chars2 = get_chars(20);
+
+set<char> stmp1;
+set<char> stmp2;
+	for(char tmp1c : chars1) {
+		for(char tmp2c : chars2) {
+			int tmp1 = static_cast<int>(tmp1c);
+			int tmp2 = static_cast<int>(tmp2c);
+			if((((tmp1 >> 3) * (tmp2 << 3))) != 2448 ){
+				continue;
+			}
+			stmp1.insert(tmp1c); stmp2.insert(tmp2c);
+		}
+	}
+---------------------

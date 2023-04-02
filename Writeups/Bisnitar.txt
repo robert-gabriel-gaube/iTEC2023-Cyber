@@ -1,0 +1,4 @@
+Am descarcat fisierul .py si am observat ca putem schimba si un numar de monede negative. Am incercat sa fac niste schimburi manual si apoi am decis sa creez un script 
+care sa incerce mai multe combinatii de schimburi. Acest script in c++ are partea de schimb copiata din fisierul original si face schimburile in mod random,
+bazat pe functia rand(). Am repetat aceasta randomizare de 100000000 de ori, fiecare cu maxim 8 pasi si in cazul in care am avut suma de 39 de monede am printat
+valorile random care au decis schimbul. Pe baza acestora am reusit sa obtin flag-ul.
